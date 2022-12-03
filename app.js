@@ -52,21 +52,6 @@ var paymentSchema = new mongoose.Schema({
 var Payment = mongoose.model("Payment",paymentSchema);
 
 
-// Item.create({type:"Mobile",email:"shubha.pawar@gmail.com",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxEJr2a5TXPDeWGOAg6JxbzU6tiKGzW1YoMP-C-V4XKhXgxsew",quantity:1,price:"150$",info:"Lenovo vibe k5 note"},function(err,newItem){
-//     if(err)console.log(err);
-// });
-
-// Employee.create({
-//     username:"Shubham", 
-//     password:"Shubham@123", 
-//     applicant:"Admin"
-// },function(err,employee){
-//     if(err){
-//         console.log(err);
-//     }else{
-//         console.log(employee);
-//     }
-// });
 
 
 app.get("/",function(req,res){
